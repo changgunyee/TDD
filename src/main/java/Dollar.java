@@ -1,8 +1,6 @@
-class Dollar{
-    int amount;
-
-    Dollar(int amount){
-        this.amount=amount;
+class Dollar extends Money{
+    public Dollar(int amount) {
+        super(amount);
     }
 
     Dollar times(int multiplier){
